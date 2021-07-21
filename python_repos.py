@@ -63,7 +63,7 @@ layout = {
 }
 
 fig = {'data': data, 'layout': layout}
-offline.plot(fig)
+offline.plot(fig, filename='python_repos.html')
 
 
 
